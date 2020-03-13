@@ -11,7 +11,7 @@ if (isGetCookie) {
 } else {
    sign()
 }
-""
+
 function getcookie() {
   if ($request && $request.method == 'POST') {
       const signurlVal = $request.url
@@ -26,7 +26,7 @@ function getcookie() {
    hdl.done()
 }
    
-""
+
 
 function sign() {
   const signurlVal = hdl.getdata(signurlKey)
